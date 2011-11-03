@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/elmath
+# catalog-date 2007-05-25 16:15:27 +0200
+# catalog-license lppl
+# catalog-version v1.2
 Name:		texlive-elmath
 Version:	v1.2
 Release:	1
@@ -43,6 +49,7 @@ mode.
 #- source
 %doc %{_texmfdistdir}/source/latex/elmath/elmath.dtx
 %doc %{_texmfdistdir}/source/latex/elmath/elmath.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ mode.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
