@@ -6,7 +6,7 @@
 # catalog-version v1.2
 Name:		texlive-elmath
 Version:	v1.2
-Release:	8
+Release:	9
 Summary:	Mathematics in Greek texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/elmath
