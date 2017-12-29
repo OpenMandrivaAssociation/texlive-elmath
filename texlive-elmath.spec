@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/elmath
-# catalog-date 2007-05-25 16:15:27 +0200
-# catalog-license lppl
-# catalog-version v1.2
 Name:		texlive-elmath
-Version:	v1.2
-Release:	10
+Version:	1.2
+Release:	1
 Summary:	Mathematics in Greek texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/elmath
@@ -50,17 +44,3 @@ mode.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.2-2
-+ Revision: 751405
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.2-1
-+ Revision: 718320
-- texlive-elmath
-- texlive-elmath
-- texlive-elmath
-- texlive-elmath
-
